@@ -1,12 +1,10 @@
+import BackToMain from "@/components/BackToMain";
 import { episodes } from "@/data/shared";
-import Link from "next/link";
 
 function EpisodesPage() {
   return (
     <section className="grid grid-cols-1 gap-5 px-5">
-      <Link href="/" className="text-white font-bold">
-        {"<"} ပင်မစာမျက်နှာသို့ပြန်သွားမည်
-      </Link>
+      <BackToMain />
       <p className="bg-yellow-300 p-5 text-center rounded-lg">
         ဤစာမျက်နှာအား စတင်ပြုလုပ်ဆဲဖြစ်သည်။ အောက်ပါနေရာများတွင်
         သွားရောက်ကြည့်ရှုနိုင်သည်။

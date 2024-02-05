@@ -4,6 +4,7 @@ export const routes = [
   { href: "guests", title: "ဧည့်သည်များ" },
   { href: "questions", title: "မေးခွန်းများ" },
   { href: "news", title: "သတင်းများ" },
+  { href: "shows", title: "အခြားအစီအစဉ်များ" },
 ];
 
 export const episodes = [
