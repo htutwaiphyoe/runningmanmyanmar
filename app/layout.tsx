@@ -15,7 +15,11 @@ type RootLayoutProps = PropsWithChildren;
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <main className="w-full flex flex-col justify-center items-center bg-image min-h-screen p-5">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
