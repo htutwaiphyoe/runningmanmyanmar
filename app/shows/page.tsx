@@ -9,7 +9,7 @@ function NewsPage() {
       </p>
       <div className="bg-gray-100 p-5 rounded-lg grid gap-2">
         <h2 className="text-xl font-bold">Yoo Jae Suk</h2>
-        <ul className="list-disc ml-5">
+        <ol className="list-decimal ml-7">
           <li>Running Man</li>
           <li>Hangout with Yoo</li>
           <li>Yoo Quiz</li>
@@ -21,11 +21,11 @@ function NewsPage() {
           <li>Happy Together</li>
           <li>Family Outing</li>
           <li>X-Man</li>
-        </ul>
+        </ol>
       </div>
       <div className="bg-gray-100 p-5 rounded-lg grid gap-2">
         <h2 className="text-xl font-bold">Ji Suk Jin</h2>
-        <ul className="list-disc ml-5">
+        <ul className="list-decimal ml-7">
           <li>Running Man</li>
           <li>Bro Marble</li>
           <li>Outrun by running man</li>
@@ -33,7 +33,7 @@ function NewsPage() {
       </div>
       <div className="bg-gray-100 p-5 rounded-lg grid gap-2">
         <h2 className="text-xl font-bold">Kim Jong Kook</h2>
-        <ul className="list-disc ml-5">
+        <ul className="list-decimal ml-7">
           <li>Running Man</li>
           <li>My Little Old Boy</li>
           <li>Outrun by running man</li>
@@ -43,7 +43,7 @@ function NewsPage() {
       </div>
       <div className="bg-gray-100 p-5 rounded-lg grid gap-2">
         <h2 className="text-xl font-bold">Haha</h2>
-        <ul className="list-disc ml-5">
+        <ul className="list-decimal ml-7">
           <li>Running Man</li>
           <li>Hangout with Yoo</li>
           <li>Outrun by running man</li>
